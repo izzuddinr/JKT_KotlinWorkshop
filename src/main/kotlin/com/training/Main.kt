@@ -1,5 +1,6 @@
 package com.training
 
+import com.training.basic.Conditionals
 import com.training.basic.DataTypes
 import com.training.basic.HelloWorld
 import javax.xml.crypto.Data
@@ -31,4 +32,11 @@ fun main() {
     DataTypes.execute(byte1, byte2)
 
     DataTypes.execute(true, false)
+
+    Conditionals.executeIfElse(1, 2)
+    Conditionals.executeIfElse(3, 2)
+    Conditionals.executeIfElse(1, 1)
+    Conditionals.executeWhen(1, 2)
+    Conditionals.executeWhen(3, 2)
+    Conditionals.executeWhen(1, 1)
 }

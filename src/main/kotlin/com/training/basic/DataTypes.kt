@@ -74,12 +74,13 @@ object DataTypes {
     }
 
     fun execute(input1: Double?, input2: Double?) {
+        //TODO: Uncomment lines below and do the operations
         if (input1 != null && input2 != null) {
-            val sum =
-            val difference =
-            val product =
-            val quotient =
-            println("Double: $input1, Double: $input2, Sum: $sum, Difference: $difference, Product: $product, Quotient: $quotient")
+//            val sum =
+//            val difference =
+//            val product =
+//            val quotient =
+//            println("Double: $input1, Double: $input2, Sum: $sum, Difference: $difference, Product: $product, Quotient: $quotient")
         } else {
             println("One or both Double inputs are null")
         }
@@ -98,11 +99,12 @@ object DataTypes {
     }
 
     fun execute(input1: Boolean?, input2: Boolean?) {
+        //TODO: Uncomment lines below and do the operations
         if (input1 != null && input2 != null) {
-            val and =
-            val or =
-            val xor =
-            println("Boolean1: $input1, Boolean2: $input2, AND: $and, OR: $or, XOR: $xor")
+//            val and =
+//            val or =
+//            val xor =
+//            println("Boolean1: $input1, Boolean2: $input2, AND: $and, OR: $or, XOR: $xor")
         } else {
             println("One or both Boolean inputs are null")
         }
