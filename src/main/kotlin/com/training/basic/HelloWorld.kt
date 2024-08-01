@@ -2,6 +2,12 @@ package com.training.basic
 
 class HelloWorld {
     fun execute() {
-        println("Hello, World!")
+        //TODO: print "Hello, World!"
+        print("")
+    }
+
+    fun execute(name: String) {
+        //TODO: print "Hello, [name]!"
+        print("")
     }
 }
