@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
+import com.training.utils.GlobalUtils.printOutput
 
 class HelloWorldTest {
 
@@ -15,10 +16,9 @@ class HelloWorldTest {
         System.setOut(printStream)
 
         try {
-            val helloWorld = HelloWorld()
-            helloWorld.execute()
+            HelloWorld.execute()
 
-            assertEquals("Hello, World!", outputStream.toString())
+            assertEquals("Hello, World!", outputStream.printOutput())
         } finally {
             System.setOut(originalOut)
         }
@@ -32,10 +32,9 @@ class HelloWorldTest {
         System.setOut(printStream)
 
         try {
-            val helloWorld = HelloWorld()
-            helloWorld.execute("Ingenico")
+            HelloWorld.execute("Ingenico")
 
-            assertEquals("Hello, Ingenico!", outputStream.toString())
+            assertEquals("Hello, Ingenico!", outputStream.printOutput())
         } finally {
             System.setOut(originalOut)
         }

@@ -1,13 +1,15 @@
 package com.training.basic
 
-class HelloWorld {
+object HelloWorld {
+
     fun execute() {
         //TODO: print "Hello, World!"
-        print("")
+        println("")
     }
 
     fun execute(name: String) {
         //TODO: print "Hello, [name]!"
-        print("")
+        println("")
     }
+
 }
